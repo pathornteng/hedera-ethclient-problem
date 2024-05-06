@@ -23,7 +23,7 @@ func main() {
 		- 3730571
 		- 3454410
 	*/
-	block, err := client.BlockByNumber(context.Background(), big.NewInt(3454410))
+	block, err := client.BlockByNumber(context.Background(), big.NewInt(3454401))
 	if err != nil {
 		log.Fatal(err)
 	}
